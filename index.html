@@ -28,7 +28,7 @@
     <div class="content">
         <div class="shadow-sm d-flex align-items-center topbar"><a class="d-flex float-right justify-content-center align-items-center collapseButton" href="#" id="collapseButton"><i class="fas fa-bars"></i></a><a class="d-flex justify-content-center align-items-center navButton" href="#" id="searchToggle"><i class="fas fa-search"></i></a>
             <div
-                class="d-flex justify-content-center align-items-center search" id="search"><input class="float-left topbar-input" type="text" placeholder="Suche..."><a class="float-right" href="#" id="closeSearch"><i class="fas fa-times"></i></a></div>
+                class="d-flex justify-content-center align-items-center search" id="search"><input class="float-left topbar-input" type="text" placeholder="Search..."><a class="float-right" href="#" id="closeSearch"><i class="fas fa-times"></i></a></div>
         <div class="ml-auto" id="topbar-right"><a class="d-flex float-left justify-content-center align-items-center navButton" href="#" id="notificationsDropdown" data-toggle="dropdown"><i class="far fa-bell"></i></a>
             <div class="dropdown-menu" aria-labelledby="notificationsDropdown"><a href="#" class="dropdown-item">Link</a><a href="#" class="dropdown-item">Link</a><a href="#" class="dropdown-item">Link</a></div><a class="d-flex float-right justify-content-center align-items-center topbar-user gradient-topbar dropdown-toggle"
                 href="#" id="userDropdown" data-toggle="dropdown"><img class="rounded-circle" src="assets/img/236831.png" width="32px" height="32px">&nbsp;Administrator</a>
@@ -47,6 +47,10 @@
                 </div>
             </div>
             <div class="row justify-content-center">
+                <div class="col-12">
+                    <hr>
+                    <h2 class="site-heading">Info Cards</h2>
+                </div>
                 <div class="col-xl-3 col-xs-12">
                     <div class="card">
                         <div class="card-body text-white gradient-1">
@@ -149,6 +153,10 @@
                 </div>
             </div>
             <div class="row">
+                <div class="col-12">
+                    <hr>
+                    <h2 class="site-heading">Panels</h2>
+                </div>
                 <div class="col">
                     <div class="card">
                         <div class="card-header">
@@ -174,6 +182,60 @@
                                         </tr>
                                     </tbody>
                                 </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <hr>
+                    <h2 class="site-heading">Alerts</h2>
+                </div>
+                <div class="col-12">
+                    <div class="alert alert-info" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button><span><strong>Info! Alert</strong> text.</span></div>
+                    <div class="alert alert-success" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button><span><strong>Success! Alert</strong> text.</span></div>
+                    <div class="alert alert-warning" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button><span><strong>Warning! Alert</strong> text.</span></div>
+                    <div class="alert alert-danger" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button><span><strong>Danger! Alert</strong> text.</span></div>
+                    <div class="alert alert-primary" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button><span><strong>Primary! Alert</strong> text.</span></div>
+                    <div class="alert alert-dark" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button><span><strong>Dark! Alert</strong> text.</span></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <hr>
+                    <h2 class="site-heading">Accordion</h2>
+                </div>
+                <div class="col">
+                    <div role="tablist" id="accordion-1">
+                        <div class="card">
+                            <div class="card-header" role="tab">
+                                <h5 class="mb-0"><a data-toggle="collapse" aria-expanded="true" aria-controls="accordion-1 .item-1" href="div#accordion-1 .item-1">Accordion Item</a></h5>
+                            </div>
+                            <div class="collapse show item-1" role="tabpanel" data-parent="#accordion-1">
+                                <div class="card-body">
+                                    <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab">
+                                <h5 class="mb-0"><a data-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-2" href="div#accordion-1 .item-2">Accordion Item</a></h5>
+                            </div>
+                            <div class="collapse item-2" role="tabpanel" data-parent="#accordion-1">
+                                <div class="card-body">
+                                    <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab">
+                                <h5 class="mb-0"><a data-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-3" href="div#accordion-1 .item-3">Accordion Item</a></h5>
+                            </div>
+                            <div class="collapse item-3" role="tabpanel" data-parent="#accordion-1">
+                                <div class="card-body">
+                                    <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
